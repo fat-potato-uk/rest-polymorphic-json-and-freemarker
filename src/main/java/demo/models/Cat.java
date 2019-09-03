@@ -5,6 +5,6 @@ import lombok.Data;
 
 @Data
 @JsonTypeName("dog")
-class Cat extends Animal{
+public class Cat extends Animal{
     private int lives;
 }
